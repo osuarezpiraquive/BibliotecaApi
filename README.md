@@ -40,12 +40,12 @@ Este proyecto incluye una API REST para la gestión de una biblioteca y un servi
 ## 📦 Estructura del proyecto
 
 BibliotecaApi/
--Controllers/ # Controladores REST
+- Controllers/ # Controladores REST
 - Models/ # Entidades: Libro, Categoria, LogMetric
 - Data/ # DbContext y configuraciones
--Services/ # Servicio de procesamiento de logs
--Logs/ # Carpeta monitoreada por el BackgroundService
-    -Processed/ # Archivos ya procesados
--script.sql # Script SQL para crear base de datos y tabla LogMetrics
--Program.cs # Configuración del host y servicios
+- Services/ # Servicio de procesamiento de logs
+- Logs/ # Carpeta monitoreada por el BackgroundService
+    - Processed/ # Archivos ya procesados
+- script.sql # Script SQL para crear base de datos y tabla LogMetrics
+- Program.cs # Configuración del host y servicios
 - appsettings.json # Configuración general y cadena de conexión
